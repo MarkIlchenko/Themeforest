@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Open+Sans:wght@400;600;800&display=swap');
+
+//Variables, fonts
+$font-stack: Manrope, serif;
+$additional-font: Open Sans, serif;
+$font-style: normal;
+
+//Variables, colors
+$primary-color: #292D33;
+$neutral-color: #9497A1;
+
+//Variables, weights
+$font-weight-large: 800;
+$font-weight-medium: 600;
+$font-weight-small: 400;
+
+//Variables, sizes
+$common-size: 16px;
+
+//Fonts Styles
+* {
+    font-family: $additional-font;
+    font-size: 20px;
+    font-style: $font-style;
+    font-weight: $font-weight-small;
+    line-height: 33px;
+    letter-spacing: -0.3px;
+}
+
+p {
+    color: $neutral-color;
+}
+
+a {
+    color: $neutral-color;
+}
+
+h1 {
+    color: $primary-color;
+    font-family: $font-stack;
+    font-size: 46px;
+    font-style: $font-style;
+    font-weight: $font-weight-large;
+    line-height: 60px;
+    letter-spacing: -0.69px;
+}
+
+h2 {
+    color: $primary-color;
+    font-family: $font-stack;
+    font-size: 38px;
+    font-style: $font-style;
+    font-weight: $font-weight-large;
+    line-height: 56px;
+    letter-spacing: -0.57px;
+}
+
+h4 {
+    color: $primary-color;
+    font-family: $font-stack;
+    font-size: 22px;
+    font-style: $font-style;
+    font-weight: $font-weight-medium;
+    line-height: 33px;
+    letter-spacing: -0.33px;
+}
+
+h6 {
+    color: $font-stack;
+    font-family: $font-stack;
+    font-size: $common-size;
+    font-style: $font-style;
+    font-weight: $font-weight-medium;
+    line-height: 24px;
+    letter-spacing: -0.24px;
+}
+
+.digit {
+    color: #FFF;
+    font-family: $additional-font;
+    font-size: 56px;
+    font-style: $font-style;
+    font-weight: $font-weight-large;
+    line-height: 112px;
+    letter-spacing: -1.4px;
+}
+
+.text-large {
+    color: $neutral-color;
+    font-family: $additional-font;
+    font-size: $common-size;
+    font-style: $font-style;
+    font-weight: $font-weight-small;
+    line-height: 28px;
+    letter-spacing: -0.24px;
+}
+
+.text-small {
+    color: $primary-color;
+    font-family: $additional-font;
+    font-size: $common-size;
+    font-style: $font-style;
+    font-weight: $font-weight-medium;
+    line-height: 24px;
+    letter-spacing: -0.21px;
+}

@@ -1,0 +1,15 @@
+.errorNew {
+    color: white;
+    .ant-input-group-addon {
+        background: gray;
+        color: white !important;
+    }
+}
+
+.successNew {
+    color: white;
+    .ant-input-group-addon {
+        background: #185CFF;
+        color: green !important;
+    }
+}

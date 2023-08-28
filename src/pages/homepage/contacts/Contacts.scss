@@ -1,0 +1,29 @@
+
+
+.input-wrapper-new {
+    label {
+        color: #9497A1;
+        font-family: Open Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.18px;
+    }
+}
+
+.error {
+    color: red;
+    .ant-input-group-addon {
+        background: red;
+        color: white !important;
+    }
+}
+
+.success {
+    color: white;
+    .ant-input-group-addon {
+        background: #185CFF;
+        color: green !important;
+    }
+}

@@ -1,0 +1,17 @@
+.errorNew {
+  color: white;
+}
+.errorNew .ant-input-group-addon {
+  background: gray;
+  color: white !important;
+}
+
+.successNew {
+  color: white;
+}
+.successNew .ant-input-group-addon {
+  background: #185CFF;
+  color: green !important;
+}
+
+/*# sourceMappingURL=Newsletter.css.map */

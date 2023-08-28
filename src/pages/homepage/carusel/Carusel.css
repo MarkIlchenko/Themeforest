@@ -1,0 +1,9 @@
+.prev-button:hover img {
+  content: url("../../../../public/buttons/before-active.svg");
+}
+
+.next-button:hover img {
+  content: url("../../../../public/buttons/next-active.svg");
+}
+
+/*# sourceMappingURL=Carusel.css.map */

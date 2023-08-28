@@ -1,0 +1,16 @@
+.dropdown-menu {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-36%);
+    margin-top: 12px;
+    width: 160px;
+    border-radius: 14px;
+    background: #fff;
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px); /* Vendor prefix for Safari */
+    box-shadow: 0px 12px 30px 0px rgba(24, 92, 255, 0.18);
+    padding: 16px 32px;
+    color: #000; /* Specify a font color for readability */
+    text-align: center; /* Center-align the menu items */
+}
